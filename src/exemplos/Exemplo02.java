@@ -1,7 +1,9 @@
+package exemplos;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Exercicio02 {
+public class Exemplo02 {
     static void main() {
         List<String> lista = new ArrayList<>();
         lista.add("Selmini");
