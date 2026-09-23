@@ -12,7 +12,7 @@ public class Exercicio03 {
           new Produto("Mouse", 850, "Eletrônico")
         );
 
-        List<String> aux = lista.stream()
+        /*List<String> aux = lista.stream()
                 .filter(p -> {
                     p.categoria().equalsIgnoreCase("eletrônico") && p.preco() > 1000
 
@@ -20,6 +20,6 @@ public class Exercicio03 {
                 .map(p -> {
                     String.format("%s - Preço com desconto R$ %.2f", p.nome(), p.preco() * 0.9);
                 })
-                .forEach(System.out::println);
+                .forEach(System.out::println);*/
     }
 }
